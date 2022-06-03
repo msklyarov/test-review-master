@@ -32,6 +32,7 @@ export default configureStore({
                 // TODO: There's no reason to replace the whole state if we just need to enable/disable
                 // isDone flag for one element. To have SET_IS_DONE action type to enable/disable todo flag
                 // is better for this.
+                // Add SET_ALL_ARE_DONE case for "all todo is done" checkbox processing
                 case 'CHANGE_TODOS': {
                     return {
                         todos: action.payload,
