@@ -30,7 +30,7 @@ export default configureStore({
                 }
 
                 // TODO: There's no reason to replace the whole state if we just need to enable/disable
-                // isDone flar for each element. To have SET_ALL_ARE_DONE action type to enable/disable flags
+                // isDone flag for one element. To have SET_IS_DONE action type to enable/disable todo flag
                 // is better for this.
                 case 'CHANGE_TODOS': {
                     return {
@@ -42,4 +42,7 @@ export default configureStore({
             }
         }
     }
+
+    // TODO: disable devTools support for production
+    // devTools: process.env.NODE_ENV !== 'production',
 })

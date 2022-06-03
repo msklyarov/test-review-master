@@ -1,3 +1,4 @@
+// TODO: There are no tests at all
 import React from 'react';
 import styles from './InputNewTodo.module.css'
 
@@ -12,6 +13,7 @@ type InputNewTodoState = {
     value: string
 }
 
+// TODO: change React.Component to React.PureComponent
 export class InputNewTodo extends React.Component<InputNewTodoProps, InputNewTodoState> {
     // TODO: remove unused parameters
     // we do not need this processing 'cause we don't heed to have a copy of this value outside this component

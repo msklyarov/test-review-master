@@ -1,3 +1,5 @@
+// TODO: Move to Container -> Component pattern for testing components separately
+// TODO: There are no tests at all
 import React from 'react';
 import { Form } from 'react-bootstrap';
 // TODO: add default keyword to InputNewTodo export, we have no reason to export it by name there

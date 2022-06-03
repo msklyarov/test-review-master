@@ -16,3 +16,5 @@ npm audit fix
 ```
 
 or with --force flag
+
+# 2. Better to choose between React Classes and Hooks and use only one approach if time allows to re-write code parts to one style

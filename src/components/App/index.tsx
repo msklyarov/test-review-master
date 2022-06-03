@@ -1,3 +1,4 @@
+// TODO: Move to Container -> Component pattern for testing components separately
 import React from 'react';
 // TODO: Remove unused import
 import logo from '../../logo.svg';
